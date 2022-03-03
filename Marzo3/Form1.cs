@@ -26,7 +26,7 @@ namespace Marzo3
         {
             CalculadoraSrv srv = new CalculadoraSrv();
                         // control y click
-            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value);
+            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value, numericUpDown3.Value);
 
             decimal total = srv.Sumar(obj);
 
@@ -38,7 +38,7 @@ namespace Marzo3
         {
             CalculadoraSrv srv = new CalculadoraSrv();
             // control y click
-            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value);
+            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value, numericUpDown3.Value);
 
             decimal total = srv.Restar(obj);
 
@@ -49,7 +49,7 @@ namespace Marzo3
         {
             CalculadoraSrv srv = new CalculadoraSrv();
             // control y click
-            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value);
+            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value, numericUpDown3.Value);
 
             decimal total = srv.Multiplicar(obj);
 
@@ -60,7 +60,7 @@ namespace Marzo3
         {
             CalculadoraSrv srv = new CalculadoraSrv();
             // control y click
-            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value);
+            var obj = srv.Factory(numericUpDown1.Value, numericUpDown2.Value, numericUpDown3.Value);
 
             decimal total = srv.Dividir(obj);
 

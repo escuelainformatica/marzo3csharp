@@ -52,7 +52,7 @@ namespace Marzo3.servicio
             // &&           and
             // || (al lado izquierdo numero 1)  or  
 
-            if(calc.Num2==0)
+            if(calc.Num2==0 || calc.Num3==0)
             {
                 return 0;
             } else {
